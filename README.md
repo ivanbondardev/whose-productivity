@@ -4,17 +4,16 @@
 
 ## Перед публікацією
 
-У `index.html` замініть:
+У `index.html` замініть чотири входження `REPLACE_WITH_SITE_URL` на повну адресу сайту без завершального `/`.
 
-- обидва входження `REPLACE_WITH_PDF_URL` на пряме посилання до PDF;
-- чотири входження `REPLACE_WITH_SITE_URL` на повну адресу сайту без завершального `/`.
+PDF уже підключений локально як `assets/whose-productivity-ivan-bondar-ua.pdf`.
 
 Наприклад:
 
 - сайт: `https://username.github.io/book-name`;
-- PDF: `https://github.com/username/book-name/releases/download/v1/book.pdf`.
+- PDF: `https://username.github.io/book-name/assets/whose-productivity-ivan-bondar-ua.pdf`.
 
-Для PDF рекомендовано використати GitHub Release: це дозволяє оновлювати сайт окремо від файлу книги й залишає зрозуміле пряме посилання.
+Щоб оновити книгу без зміни посилання на сайті, замініть PDF новою версією з тією самою назвою файлу.
 
 ## Публікація в окремому репозиторії
 
