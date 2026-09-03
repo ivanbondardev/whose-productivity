@@ -4,14 +4,16 @@
 
 ## Перед публікацією
 
-У `index.html` замініть чотири входження `REPLACE_WITH_SITE_URL` на повну адресу сайту без завершального `/`.
+Адреса сайту вже записана в canonical та social metadata:
+
+`https://ivanbondardev.github.io/whose-productivity/`
 
 PDF уже підключений локально як `assets/whose-productivity-ivan-bondar-ua.pdf`.
 
 Наприклад:
 
-- сайт: `https://username.github.io/book-name`;
-- PDF: `https://username.github.io/book-name/assets/whose-productivity-ivan-bondar-ua.pdf`.
+- сайт: `https://ivanbondardev.github.io/whose-productivity/`;
+- PDF: `https://ivanbondardev.github.io/whose-productivity/assets/whose-productivity-ivan-bondar-ua.pdf`.
 
 Щоб оновити книгу без зміни посилання на сайті, замініть PDF новою версією з тією самою назвою файлу.
 
